@@ -1,11 +1,12 @@
 
-import { FullName } from './types/Person.types';
 
 // type PersonListProps ={
 //     names:{
 //         first:string,
 //         last:string,
 //     }[]
+
+import { FullName } from "../types/Person.types";
 
 // }
 type PersonListProps = {

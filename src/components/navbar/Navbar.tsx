@@ -29,6 +29,11 @@ export const Navbar = () => {
           Todo
         </Link>
       </button>
+      <button>
+        <Link to="/context" relative="route">
+          Context
+        </Link>
+      </button>
     </header>
   );
 };
