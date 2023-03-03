@@ -6,6 +6,8 @@ import './index.css';
 import { Examples } from './components/examples/Examples';
 import { Todo } from './components/todo/Todo';
 import { Context } from './components/context/Context';
+import { Carousel } from './components/carousel/Carousel';
+import FaqBody from './components/faq/FaqBody';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: 'context',
         element: <Context />,
+      },
+      {
+        path: 'carousel',
+        element: <Carousel />,
+      },
+      {
+        path: 'faq',
+        element: <FaqBody />,
       },
     ],
   },

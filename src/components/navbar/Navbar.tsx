@@ -34,6 +34,16 @@ export const Navbar = () => {
           Context
         </Link>
       </button>
+      <button>
+        <Link to="/carousel" relative="route">
+          Carousel
+        </Link>
+      </button>
+      <button>
+        <Link to="/faq" relative="route">
+          FAQ
+        </Link>
+      </button>
     </header>
   );
 };
